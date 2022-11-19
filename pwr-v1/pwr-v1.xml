@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/gazda/Documents/Mnau-Labs/pwr-v1/pwr-v1.kicad_sch</source>
+    <date>2022 November 17, Thursday 18:46:40</date>
+    <tool>Eeschema (6.0.9-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwr-v1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>busboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>134c2b90-8472-47d6-954a-5559df3e5d2e</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0862a7c-197d-4b5e-8193-97fe2f2534c0</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <fields>
+        <field name="JLC Status">Basic</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLC Status" value="Basic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d80b69-34b8-4159-96af-8e1ae454bf61</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>220u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Nichicon-UCD1H221MNL1GS/C116211</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee61148f-6abb-4ea7-b1ef-43abfd43fb37</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>680u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Nichicon-UCD1H221MNL1GS/C116211</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>822278a5-e858-406f-bbb1-f0ac4c7b062d</tstamps>
+    </comp>
+    <comp ref="C106">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12478468-0d41-4c6a-ae0b-1d706b19096b</tstamps>
+    </comp>
+    <comp ref="C107">
+      <value>680u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Nichicon-UCD1H221MNL1GS/C116211</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a6f98f0-a5a2-4ccc-ab4b-0ea68b208d88</tstamps>
+    </comp>
+    <comp ref="C108">
+      <value>680u</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Nichicon-UCD1H221MNL1GS/C116211</datasheet>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>052ba5f2-6810-4081-9c23-423e2f88d6ff</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/mdd_microdiode_electronics-SS54/C22452</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccf1d1a1-e78b-456f-9088-f9059ffa9096</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64d4af78-b1ac-40ba-b776-45e660e18815</tstamps>
+    </comp>
+    <comp ref="D103">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190d1069-5cf7-4916-b471-473fdd83d07b</tstamps>
+    </comp>
+    <comp ref="D104">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1a7a818-1406-40ec-bfed-c6fded5a17c1</tstamps>
+    </comp>
+    <comp ref="D105">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>417c066c-a5e3-4e8f-bcbd-4cc77b6e6438</tstamps>
+    </comp>
+    <comp ref="D106">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/mdd_microdiode_electronics-SS54/C22452</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77f9e1e9-1f4f-41ac-8f0e-275c6e85f60c</tstamps>
+    </comp>
+    <comp ref="D107">
+      <value>SS54</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/mdd_microdiode_electronics-SS54/C22452</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe34a400-58df-4d17-8bb9-33aaeeb86bdb</tstamps>
+    </comp>
+    <comp ref="L101">
+      <value>68UH</value>
+      <footprint>Inductor_SMD:L_12x12mm_H6mm</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/sxn_shun_Xiang_Nuo_elec-SMDRI127680MT/C9907</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4aeb57f-8d20-4152-b287-0f4da41ce16e</tstamps>
+    </comp>
+    <comp ref="L102">
+      <value>33UH</value>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/sxn_shun_Xiang_Nuo_elec-SMDRI127330MT/C9400</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62304b53-ae4d-42b2-91fa-2bd933f0661f</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6a0d1ad-0884-461e-91aa-08a1cbd1509f</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c3cc44d-6c23-42f2-b067-2c98d0a5a8e5</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b31c30eb-3bbf-43be-9743-10048c8ead9b</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/23931-0603WAF5600T5E/C23204</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>611862a9-a367-4ff5-8966-20b1230c1b0f</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/23931-0603WAF5600T5E/C23204</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3be9a94-a89d-4b86-a141-1bf746cdb866</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1da2b61a-aec4-4d0f-b03a-1ba0388d6ee8</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaccb8e8-a908-4cde-9edc-daf01b9108bf</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65230637-17f4-465f-8a96-3c0c97fa3fc0</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_SPST</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>DNF</datasheet>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a615e1a2-0a65-40a4-b007-b604c3284765</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>footprint:USB-C_SMD-TYPE-C-31-M-12</footprint>
+      <datasheet>https://so.szlcsc.com/global.html?c=&amp;k=C165948</datasheet>
+      <fields>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="TYPE-C-31-M-12" description=""/>
+      <property name="LCSC" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d31ba84f-0cb2-4e33-b255-1f53e407f8a1</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>SK-3296S-01-L1</value>
+      <footprint>footprint:SW-SMD_3P-P1.50_L2.7-W6.6</footprint>
+      <datasheet>https://item.szlcsc.com/product/jpg_300112_0.html</datasheet>
+      <fields>
+        <field name="LCSC">C319020</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="SK-3296S-01-L1" description=""/>
+      <property name="LCSC" value="C319020"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18b0970c-b8bc-4752-94de-88cf0ee04087</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>CH224K</value>
+      <footprint>footprint:SSOP-10_L5.0-W3.9-P1.00-LS6.0-BL-EP</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH224K_C970725.html</datasheet>
+      <libsource lib="PWR1-other" part="CH224K" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1027a894-1831-41e8-8b1c-a39b898dd287</tstamps>
+    </comp>
+    <comp ref="U104">
+      <value>AMS1117-5.0</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AMS1117-5.0" description="1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58d02c29-f849-475a-b0f0-d7b2f4d540f5</tstamps>
+    </comp>
+    <comp ref="U105">
+      <value>LM2595S-12</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2595S-12" description="12V, 1A Step-Down Voltage Regulator, TO-263-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c736f694-cf03-48c4-8ea0-12a72b6c0ed8</tstamps>
+    </comp>
+    <comp ref="U106">
+      <value>LM2595S-12</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2595S-12" description="12V, 1A Step-Down Voltage Regulator, TO-263-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pwr-v1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed4cbe17-dc00-47aa-a850-39e3f0a7c204</tstamps>
+    </comp>
+    <comp ref="C201">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>adabd19b-b096-474b-b091-9c981e3c62db</tstamps>
+    </comp>
+    <comp ref="C202">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>9902ac82-ad3b-48f0-9e7e-95ef3451e353</tstamps>
+    </comp>
+    <comp ref="C203">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>2d640937-ca49-4ee0-bcfd-49c6de3da9e1</tstamps>
+    </comp>
+    <comp ref="C204">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>fa3b8f72-192a-4385-8085-11cb625602c3</tstamps>
+    </comp>
+    <comp ref="C205">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>da79214e-776c-4463-bc55-d99c177b1f69</tstamps>
+    </comp>
+    <comp ref="C206">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>31602fea-8788-4bd1-9f98-57ccb6b07b64</tstamps>
+    </comp>
+    <comp ref="C207">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>9113776e-94df-467d-83e0-7ccd066acf03</tstamps>
+    </comp>
+    <comp ref="C208">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>f8e17dcd-57c8-4c31-8f06-6bec4cf9a066</tstamps>
+    </comp>
+    <comp ref="C209">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>15a9420c-45d0-474a-a890-0a5f591ff43d</tstamps>
+    </comp>
+    <comp ref="C210">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>5ed1177b-063f-42e2-8c72-275e70e1257a</tstamps>
+    </comp>
+    <comp ref="C211">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>01cc2a26-d941-4929-acda-3339f3659e06</tstamps>
+    </comp>
+    <comp ref="C212">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>afa79a40-e6a3-418a-a69d-c23d0f0021b5</tstamps>
+    </comp>
+    <comp ref="C213">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>ed2775ca-92b6-4091-901f-852fc8091c4d</tstamps>
+    </comp>
+    <comp ref="C214">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>11c1ddd5-124b-4748-9b75-756161de9a89</tstamps>
+    </comp>
+    <comp ref="C215">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>7a438c3e-97a3-4d53-81d2-db4f1c816917</tstamps>
+    </comp>
+    <comp ref="C216">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>f186963b-8c4e-46c9-b974-94d6bfb18861</tstamps>
+    </comp>
+    <comp ref="C217">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>c89e07af-00cc-48a5-8c08-55a6eb33b8c4</tstamps>
+    </comp>
+    <comp ref="C218">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>7d63d1ce-8b69-432c-b612-a8445351be10</tstamps>
+    </comp>
+    <comp ref="C219">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>22a226e7-c5bf-4be0-a9dc-59b9f3cd449b</tstamps>
+    </comp>
+    <comp ref="C220">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>8499f0a3-bd65-445a-8f3e-267d723b78dc</tstamps>
+    </comp>
+    <comp ref="C221">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>c54917bb-6dff-419b-9ef7-a7b119679cb3</tstamps>
+    </comp>
+    <comp ref="C222">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>5c8450bb-09d9-43fd-bdd5-bc8eccd51707</tstamps>
+    </comp>
+    <comp ref="C223">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>f4a4e983-70cb-4db7-af1a-ec54a35670ac</tstamps>
+    </comp>
+    <comp ref="C224">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>ea737e4f-cd1f-446e-a85c-8a6ffbd22bd8</tstamps>
+    </comp>
+    <comp ref="C225">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>b1fde52a-2728-44c1-9312-1b008bb3d52e</tstamps>
+    </comp>
+    <comp ref="C226">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>c3cc0345-4ba3-4140-9573-b5706befa25b</tstamps>
+    </comp>
+    <comp ref="C227">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>ba672789-3729-4670-9cfb-a09bebf9c6de</tstamps>
+    </comp>
+    <comp ref="C228">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>e8f339a2-790f-411e-a364-8cb848da2de9</tstamps>
+    </comp>
+    <comp ref="C229">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>d2855b12-7e2b-43d3-98f5-22138a72b995</tstamps>
+    </comp>
+    <comp ref="C230">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>0205bad7-8689-4447-9a91-1bec6c98ad03</tstamps>
+    </comp>
+    <comp ref="EURO201">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>8e9d27d1-ce5c-40cf-9887-6529dd717ac5</tstamps>
+    </comp>
+    <comp ref="EURO202">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>3adce3f6-fd88-4d93-a597-587af4589b4a</tstamps>
+    </comp>
+    <comp ref="EURO203">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>a4dfd6a4-deb4-48f2-9387-6692e2a71bf9</tstamps>
+    </comp>
+    <comp ref="EURO204">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>8fdf4474-126d-42e8-ba35-b6620e2eeff1</tstamps>
+    </comp>
+    <comp ref="EURO205">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>1c5716f7-81e5-4ebc-ae5b-0ea3e63e5dff</tstamps>
+    </comp>
+    <comp ref="EURO206">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>8df8515b-7c37-4faa-b774-8fe42de8ac3e</tstamps>
+    </comp>
+    <comp ref="EURO207">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>32a47983-0650-4003-a628-2671607967fb</tstamps>
+    </comp>
+    <comp ref="EURO208">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>adf49a1f-3341-45c1-8fad-f84784cb2ee4</tstamps>
+    </comp>
+    <comp ref="EURO209">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>e7fc636d-7fa6-4bed-8a36-90e273d85c68</tstamps>
+    </comp>
+    <comp ref="EURO210">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>bdc34226-11f8-41f8-8352-a833d92e147e</tstamps>
+    </comp>
+    <comp ref="EURO211">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>c224ce56-9ebb-4a3d-9361-97021c815164</tstamps>
+    </comp>
+    <comp ref="EURO212">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>b00bcbeb-8ed2-4a83-93b6-9d72bfd09c35</tstamps>
+    </comp>
+    <comp ref="EURO213">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>4e98e9a5-84e0-4b1f-8c38-89a23acc17b1</tstamps>
+    </comp>
+    <comp ref="EURO214">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>cf067288-4cfc-4705-a647-7b2a6e464362</tstamps>
+    </comp>
+    <comp ref="EURO215">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>9c91828e-8fd7-4549-9689-63d64b4c462d</tstamps>
+    </comp>
+    <comp ref="EURO216">
+      <value>BH-00098</value>
+      <footprint>footprint:IDC-SMD_BH-00098</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <libsource lib="PWR1LCSC1" part="BH-00098" description=""/>
+      <property name="LCSC" value="C2685064"/>
+      <property name="Sheetname" value="Busboard"/>
+      <property name="Sheetfile" value="busboard.kicad_sch"/>
+      <sheetpath names="/Busboard/" tstamps="/88071ddc-f251-4235-bcaf-6dd53d7122f1/"/>
+      <tstamps>4c53c249-a98b-47c1-9368-f6338e71314f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PWR1-other" part="CH224K">
+      <docs>https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH224K_C970725.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH224K</field>
+        <field name="Datasheet">https://www.lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH224K_C970725.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="CFG2" type="input"/>
+        <pin num="3" name="CFG3" type="input"/>
+        <pin num="4" name="DP" type="input"/>
+        <pin num="5" name="DM" type="input"/>
+        <pin num="6" name="CC2" type="output"/>
+        <pin num="7" name="CC1" type="input"/>
+        <pin num="8" name="VBUS" type="power_in"/>
+        <pin num="9" name="CFG1" type="input"/>
+        <pin num="10" name="PG" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PWR1LCSC1" part="BH-00098">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</docs>
+      <fields>
+        <field name="Reference">EURO</field>
+        <field name="Value">BH-00098</field>
+        <field name="Footprint">footprint:IDC-SMD_BH-00098</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20210125/C2685064_2435FFDD107A16D224D626DB6590EE52.pdf</field>
+        <field name="LCSC">C2685064</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+        <pin num="15" name="15" type="unspecified"/>
+        <pin num="16" name="16" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="PWR1LCSC1" part="SK-3296S-01-L1">
+      <docs>https://item.szlcsc.com/product/jpg_300112_0.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SK-3296S-01-L1</field>
+        <field name="Footprint">footprint:SW-SMD_3P-P1.50_L2.7-W6.6</field>
+        <field name="Datasheet">https://item.szlcsc.com/product/jpg_300112_0.html</field>
+        <field name="LCSC">C319020</field>
+      </fields>
+      <pins>
+        <pin num="0" name="0" type="unspecified"/>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="PWR1LCSC1" part="TYPE-C-31-M-12">
+      <docs>https://so.szlcsc.com/global.html?c=&amp;k=C165948</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TYPE-C-31-M-12</field>
+        <field name="Footprint">footprint:USB-C_SMD-TYPE-C-31-M-12</field>
+        <field name="Datasheet">https://so.szlcsc.com/global.html?c=&amp;k=C165948</field>
+        <field name="LCSC">C165948</field>
+      </fields>
+      <pins>
+        <pin num="0" name="SH" type="unspecified"/>
+        <pin num="A1" name="GND" type="unspecified"/>
+        <pin num="A4" name="VBUS" type="unspecified"/>
+        <pin num="A5" name="CC1" type="unspecified"/>
+        <pin num="A6" name="DP1" type="unspecified"/>
+        <pin num="A7" name="DN1" type="unspecified"/>
+        <pin num="A8" name="SBU1" type="unspecified"/>
+        <pin num="A9" name="VBUS" type="unspecified"/>
+        <pin num="A12" name="GND" type="unspecified"/>
+        <pin num="B1" name="GND" type="unspecified"/>
+        <pin num="B4" name="VBUS" type="unspecified"/>
+        <pin num="B5" name="CC2" type="unspecified"/>
+        <pin num="B6" name="DP2" type="unspecified"/>
+        <pin num="B7" name="DN2" type="unspecified"/>
+        <pin num="B8" name="SBU2" type="unspecified"/>
+        <pin num="B9" name="VBUS" type="unspecified"/>
+        <pin num="B12" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-5.0">
+      <description>1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2595S-12">
+      <description>12V, 1A Step-Down Voltage Regulator, TO-263-5</description>
+      <docs>http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2595S-12</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://www.ti.com.cn/cn/lit/ds/symlink/lm2595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="ON/~{OFF}" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="PWR1-other">
+      <uri>/Users/gazda/Documents/Mnau-Labs/pwr-v1/PWR1-other.kicad_sym</uri>
+    </library>
+    <library logical="PWR1LCSC1">
+      <uri>/Users/gazda/Documents/Mnau-Labs/KiCad Libraries/PWR1LCSC1/Schematic/PWR1LCSC1.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="EURO201" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO201" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO202" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO202" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO203" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO203" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO204" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO204" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO205" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO205" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO206" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO206" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO207" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO207" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO208" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO208" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO209" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO209" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO210" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO210" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO211" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO211" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO212" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO212" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO213" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO213" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO214" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO214" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO215" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO215" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="EURO216" pin="11" pinfunction="11" pintype="unspecified"/>
+      <node ref="EURO216" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="U104" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="C201" pin="1" pintype="passive"/>
+      <node ref="C202" pin="1" pintype="passive"/>
+      <node ref="C203" pin="1" pintype="passive"/>
+      <node ref="C204" pin="1" pintype="passive"/>
+      <node ref="C205" pin="1" pintype="passive"/>
+      <node ref="C206" pin="1" pintype="passive"/>
+      <node ref="C207" pin="1" pintype="passive"/>
+      <node ref="C208" pin="1" pintype="passive"/>
+      <node ref="C217" pin="1" pintype="passive"/>
+      <node ref="C218" pin="1" pintype="passive"/>
+      <node ref="C219" pin="1" pintype="passive"/>
+      <node ref="C220" pin="1" pintype="passive"/>
+      <node ref="C221" pin="1" pintype="passive"/>
+      <node ref="C222" pin="1" pintype="passive"/>
+      <node ref="C223" pin="1" pintype="passive"/>
+      <node ref="EURO201" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO201" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO202" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO202" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO203" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO203" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO204" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO204" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO205" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO205" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO206" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO206" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO207" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO207" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO208" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO208" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO209" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO209" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO210" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO210" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO211" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO211" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO212" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO212" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO213" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO213" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO214" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO214" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO215" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO215" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="EURO216" pin="10" pinfunction="10" pintype="unspecified"/>
+      <node ref="EURO216" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="L101" pin="2" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="U104" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U105" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="3" name="-12V">
+      <node ref="C107" pin="2" pintype="passive"/>
+      <node ref="C108" pin="2" pintype="passive"/>
+      <node ref="C209" pin="1" pintype="passive"/>
+      <node ref="C210" pin="1" pintype="passive"/>
+      <node ref="C211" pin="1" pintype="passive"/>
+      <node ref="C212" pin="1" pintype="passive"/>
+      <node ref="C213" pin="1" pintype="passive"/>
+      <node ref="C214" pin="1" pintype="passive"/>
+      <node ref="C215" pin="1" pintype="passive"/>
+      <node ref="C216" pin="1" pintype="passive"/>
+      <node ref="C224" pin="1" pintype="passive"/>
+      <node ref="C225" pin="1" pintype="passive"/>
+      <node ref="C226" pin="1" pintype="passive"/>
+      <node ref="C227" pin="1" pintype="passive"/>
+      <node ref="C228" pin="1" pintype="passive"/>
+      <node ref="C229" pin="1" pintype="passive"/>
+      <node ref="C230" pin="1" pintype="passive"/>
+      <node ref="D106" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D107" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="EURO201" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO201" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO202" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO202" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO203" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO203" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO204" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO204" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO205" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO205" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO206" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO206" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO207" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO207" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO208" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO208" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO209" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO209" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO210" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO210" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO211" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO211" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO212" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO212" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO213" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO213" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO214" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO214" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO215" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO215" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="EURO216" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="EURO216" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="U106" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="/VDD">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U103" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="5" name="CC1">
+      <node ref="U101" pin="A5" pinfunction="CC1" pintype="unspecified"/>
+      <node ref="U103" pin="7" pinfunction="CC1" pintype="input"/>
+    </net>
+    <net code="6" name="CC2">
+      <node ref="U101" pin="B5" pinfunction="CC2" pintype="unspecified"/>
+      <node ref="U103" pin="6" pinfunction="CC2" pintype="output"/>
+    </net>
+    <net code="7" name="CFG1">
+      <node ref="U102" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U103" pin="9" pinfunction="CFG1" pintype="input"/>
+    </net>
+    <net code="8" name="CV">
+      <node ref="EURO201" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO201" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO202" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO202" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO203" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO203" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO204" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO204" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO205" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO205" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO206" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO206" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO207" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO207" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO208" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO208" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO209" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO209" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO210" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO210" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO211" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO211" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO212" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO212" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO213" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO213" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO214" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO214" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO215" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO215" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="EURO216" pin="13" pinfunction="13" pintype="unspecified"/>
+      <node ref="EURO216" pin="14" pinfunction="14" pintype="unspecified"/>
+    </net>
+    <net code="9" name="DN">
+      <node ref="U101" pin="A7" pinfunction="DN1" pintype="unspecified"/>
+      <node ref="U101" pin="B7" pinfunction="DN2" pintype="unspecified"/>
+      <node ref="U103" pin="5" pinfunction="DM" pintype="input"/>
+    </net>
+    <net code="10" name="DP">
+      <node ref="U101" pin="A6" pinfunction="DP1" pintype="unspecified"/>
+      <node ref="U101" pin="B6" pinfunction="DP2" pintype="unspecified"/>
+      <node ref="U103" pin="4" pinfunction="DP" pintype="input"/>
+    </net>
+    <net code="11" name="GATE">
+      <node ref="EURO201" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO201" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO202" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO202" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO203" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO203" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO204" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO204" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO205" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO205" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO206" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO206" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO207" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO207" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO208" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO208" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO209" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO209" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO210" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO210" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO211" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO211" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO212" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO212" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO213" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO213" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO214" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO214" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO215" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO215" pin="16" pinfunction="16" pintype="unspecified"/>
+      <node ref="EURO216" pin="15" pinfunction="15" pintype="unspecified"/>
+      <node ref="EURO216" pin="16" pinfunction="16" pintype="unspecified"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="C108" pin="1" pintype="passive"/>
+      <node ref="C201" pin="2" pintype="passive"/>
+      <node ref="C202" pin="2" pintype="passive"/>
+      <node ref="C203" pin="2" pintype="passive"/>
+      <node ref="C204" pin="2" pintype="passive"/>
+      <node ref="C205" pin="2" pintype="passive"/>
+      <node ref="C206" pin="2" pintype="passive"/>
+      <node ref="C207" pin="2" pintype="passive"/>
+      <node ref="C208" pin="2" pintype="passive"/>
+      <node ref="C209" pin="2" pintype="passive"/>
+      <node ref="C210" pin="2" pintype="passive"/>
+      <node ref="C211" pin="2" pintype="passive"/>
+      <node ref="C212" pin="2" pintype="passive"/>
+      <node ref="C213" pin="2" pintype="passive"/>
+      <node ref="C214" pin="2" pintype="passive"/>
+      <node ref="C215" pin="2" pintype="passive"/>
+      <node ref="C216" pin="2" pintype="passive"/>
+      <node ref="C217" pin="2" pintype="passive"/>
+      <node ref="C218" pin="2" pintype="passive"/>
+      <node ref="C219" pin="2" pintype="passive"/>
+      <node ref="C220" pin="2" pintype="passive"/>
+      <node ref="C221" pin="2" pintype="passive"/>
+      <node ref="C222" pin="2" pintype="passive"/>
+      <node ref="C223" pin="2" pintype="passive"/>
+      <node ref="C224" pin="2" pintype="passive"/>
+      <node ref="C225" pin="2" pintype="passive"/>
+      <node ref="C226" pin="2" pintype="passive"/>
+      <node ref="C227" pin="2" pintype="passive"/>
+      <node ref="C228" pin="2" pintype="passive"/>
+      <node ref="C229" pin="2" pintype="passive"/>
+      <node ref="C230" pin="2" pintype="passive"/>
+      <node ref="D101" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D103" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D104" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D105" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D107" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="EURO201" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO201" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO201" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO201" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO201" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO201" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO202" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO202" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO202" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO202" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO202" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO202" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO203" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO203" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO203" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO203" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO203" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO203" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO204" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO204" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO204" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO204" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO204" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO204" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO205" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO205" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO205" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO205" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO205" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO205" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO206" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO206" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO206" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO206" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO206" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO206" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO207" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO207" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO207" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO207" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO207" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO207" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO208" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO208" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO208" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO208" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO208" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO208" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO209" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO209" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO209" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO209" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO209" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO209" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO210" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO210" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO210" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO210" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO210" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO210" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO211" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO211" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO211" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO211" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO211" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO211" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO212" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO212" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO212" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO212" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO212" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO212" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO213" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO213" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO213" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO213" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO213" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO213" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO214" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO214" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO214" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO214" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO214" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO214" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO215" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO215" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO215" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO215" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO215" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO215" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="EURO216" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="EURO216" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="EURO216" pin="5" pinfunction="5" pintype="unspecified"/>
+      <node ref="EURO216" pin="6" pinfunction="6" pintype="unspecified"/>
+      <node ref="EURO216" pin="7" pinfunction="7" pintype="unspecified"/>
+      <node ref="EURO216" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="L102" pin="2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="U101" pin="A1" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U101" pin="A12" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U101" pin="B1" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U101" pin="B12" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U102" pin="0" pinfunction="0" pintype="unspecified"/>
+      <node ref="U103" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U104" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U105" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U105" pin="5" pinfunction="ON/~{OFF}" pintype="input"/>
+      <node ref="U106" pin="4" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C106-Pad2)">
+      <node ref="C106" pin="2" pintype="passive"/>
+      <node ref="C107" pin="1" pintype="passive"/>
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U106" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L101" pin="1" pintype="passive"/>
+      <node ref="U105" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(D103-Pad2)">
+      <node ref="D103" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D104-Pad1)">
+      <node ref="D104" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D105-Pad2)">
+      <node ref="D105" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D106-Pad1)">
+      <node ref="D106" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L102" pin="1" pintype="passive"/>
+      <node ref="U106" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R102-Pad1)">
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="21" name="Net-(R103-Pad2)">
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U103" pin="8" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(R107-Pad1)">
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U106" pin="5" pinfunction="ON/~{OFF}" pintype="input"/>
+    </net>
+    <net code="23" name="VBUS">
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U101" pin="A4" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U101" pin="A9" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U101" pin="B4" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U101" pin="B9" pinfunction="VBUS" pintype="unspecified"/>
+    </net>
+    <net code="24" name="VBUS_SW">
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U105" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="25" name="unconnected-(U101-Pad0)">
+      <node ref="U101" pin="0" pinfunction="SH" pintype="unspecified"/>
+    </net>
+    <net code="26" name="unconnected-(U101-Pad0)_1">
+      <node ref="U101" pin="0" pinfunction="SH" pintype="unspecified"/>
+    </net>
+    <net code="27" name="unconnected-(U101-Pad0)_2">
+      <node ref="U101" pin="0" pinfunction="SH" pintype="unspecified"/>
+    </net>
+    <net code="28" name="unconnected-(U101-Pad0)_3">
+      <node ref="U101" pin="0" pinfunction="SH" pintype="unspecified"/>
+    </net>
+    <net code="29" name="unconnected-(U101-PadA8)">
+      <node ref="U101" pin="A8" pinfunction="SBU1" pintype="unspecified"/>
+    </net>
+    <net code="30" name="unconnected-(U101-PadB8)">
+      <node ref="U101" pin="B8" pinfunction="SBU2" pintype="unspecified"/>
+    </net>
+    <net code="31" name="unconnected-(U102-Pad1)">
+      <node ref="U102" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="32" name="unconnected-(U103-Pad2)">
+      <node ref="U103" pin="2" pinfunction="CFG2" pintype="input"/>
+    </net>
+    <net code="33" name="unconnected-(U103-Pad3)">
+      <node ref="U103" pin="3" pinfunction="CFG3" pintype="input"/>
+    </net>
+    <net code="34" name="unconnected-(U103-Pad10)">
+      <node ref="U103" pin="10" pinfunction="PG" pintype="input"/>
+    </net>
+  </nets>
+</export>
