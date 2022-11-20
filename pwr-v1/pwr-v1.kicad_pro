@@ -388,7 +388,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "pwr-v1.step",
-      "vrml": ""
+      "vrml": "pwr-v1.wrl"
     },
     "page_layout_descr_file": ""
   },
